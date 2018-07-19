@@ -1,0 +1,161 @@
+@charset "UTF-8";
+html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
+html,body{font-family:Verdana, Geneva, sans-serif;font-size:15px;line-height:1.5}html{overflow-x:hidden}
+html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
+a{text-decoration:none;color: #2A3F55;}
+a:hover,a:active{color:#000044;}
+
+.top{
+	position:relative;
+	top:0px;
+	width:80%;
+	height:68px;
+	animation:alternate;
+	line-height:50px;
+}
+
+.header{
+	left:40%;
+	padding-top:20px;
+	font-family:"Buxton Sketch";
+	font-size:36px;
+	color:#2A3F55;
+	position:absolute;
+	text-decoration:none;
+	line-height:1;
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale;
+	display:block;
+}
+
+.topnav{
+	position:relative;
+	z-index:2;
+	left:0px;
+	top:0px;
+	height:40px;
+	width:100%;
+	background-color:#D4BFAA;
+	font-size:17px;
+	color:#DDDDDD;
+	padding:0;
+	letter-spacing:1px;
+	font-family:Verdana, Geneva, sans-serif;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
+}
+
+.undertopnav{
+	width:100%;
+	overflow:hidden;
+	height:40px;
+}
+
+.top_item{
+	padding: 8px 16px;
+    float: left;
+    width: auto;
+    border: none;
+    outline: none;
+    display: block;
+    text-decoration: none;
+	color: #2A3F55;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:16px;
+}
+
+.sidenav
+{
+	position:fixed!important;
+	z-index:1;
+	width:200px;
+	height:100%;
+	overflow:auto;
+}
+
+.leftmenuinner{
+	position:relative;
+	height:100%;
+	width:auto;
+	top:0px;
+	padding-top:0px;
+	padding-bottom:0px;
+	overflow:hidden;
+	background-color:#D4BFAA;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.leftmenuinnerinner{
+	height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    font-family: "Comic Sans MS", cursive,Arial,sans-serif;
+    text-decoration: none;
+    display: block;
+    padding: 2px 1px 1px 16px;
+	color: #2A3F55;
+}
+
+.sidenav a:hover{
+	background-color:#FF9966;
+}
+
+.loginside{
+	position:fixed;
+	top:0px;
+	left:80%;
+	padding-top:0;
+	padding-left:90px;
+	font-size:12px;
+	float:right;
+}
+
+.lognav{
+	position: fixed;
+    top: 68px;
+    width: 100%;
+    left: 0%;
+    height: 50%;
+    background-color: #89a8a5;
+}
+
+.loginner{
+	position: relative;
+    top: 0px;
+    width: 100%;
+    left: 30%;	
+}
+
+#login_inputs{
+	width: 30%;
+	border: 1px solid #d1d5da;
+    border-radius: 3px;
+    height:30px;
+}
+
+#login_button{
+	position: relative;
+    left: 0px;
+    width: 30%;
+	font-family: inherit;
+	padding:12px;
+    display: block;
+	font-weight: bold;
+	color:#2A3F55;
+	margin-top: 8px;
+	border: 1px solid rgba(27,31,35,0.2);
+	border-radius:0.25em;
+}
+
+.inform_parag{
+	margin-bottom: 0px;
+	margin-top: 10px;
+    font-family: cursive;
+    display: block;
+	font-weight: bold;
+	color:#2A3F55;
+}

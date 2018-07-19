@@ -1,0 +1,154 @@
+@charset "UTF-8";
+
+	a:hover,a:active{color:rgb(0,0,0)}
+	.header
+	{
+		font-family:"Buxton Sketch";
+		text-decoration:none;
+		line-height:1;
+		-webkit-font-smoothing:antialiased;
+		-moz-osx-font-smoothing:grayscale;
+		font-size:36px;
+		letter-spacing:3px;
+		color:rgb(153,0,0);
+		display:block;
+		position: absolute;
+		top: 17px;
+		left: 35%;
+		animation:alternate;
+	}
+	.top
+	{
+		position:relative;
+		background-color:#F1F1F1;
+		height:68px;
+		padding-top:20px;
+		line-height:50px;
+		overflow:hidden;
+		z-index:2;
+	}
+	
+	.topnav
+	{
+		position:relative;
+		z-index:2;
+		font-size:17px;
+		background-color:rgb(153,0,0);
+		color:rgb(255,255,255);
+		width:100%;
+		padding:0;
+		letter-spacing:1px;
+		font-family:"Comic Sans MS", cursive;
+	}
+	
+	.topnav-icons 
+	{
+		width:52px !important;
+		font-size:20px !important;
+		padding-top:11px !important;
+		padding-bottom:13px !important;
+	}
+	.topnav-icons.fa-home {font-size:22px !important}
+	.topnav-icons.fa-menu {font-size:22px !important}
+	a.topnav-localicons 
+	{
+		font-size:20px !important;
+		padding-top:6px !important;
+		padding-bottom:12px !important;
+	}
+	@font-face 
+	{
+		font-family:'fontawesome';
+		url('fontawesome.woff') format('woff'),
+		font-weight:normal;
+		font-style:normal;
+	}
+	.fa-home:before {content:'\e800';}
+	.fa-menu:before {content: '\f0c9';}
+
+	.fa 
+	{
+			display:inline-block;
+			font:normal normal normal 14px/1 FontAwesome;
+			font-size:inherit;
+			text-rendering:auto;
+			-webkit-font-smoothing:antialiased;
+			-moz-osx-font-smoothing:grayscale;
+			transform:translate(0, 0);
+	}
+	#leftmenuinner 
+	{
+		position:fixed;
+		top:0;
+		padding-top:112px;
+		padding-bottom:0;    
+		height:100%;
+		width:220px;
+		background-color:transparent;
+	}
+	#leftmenuinner 
+	{  
+		box-shadow:0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+		overflow:auto;
+		-webkit-overflow-scrolling:touch;
+		height:100%;
+		position:relative;
+		width:auto;
+		padding-top:0;
+		background-color:rgb(153,0,0);
+	}
+	#leftmenuinnerinner 
+	{
+		height:100%;
+		width:100%;
+		overflow-y:scroll;
+		overflow-x:hidden;
+		padding-top:20px;
+	}
+	#paragpraph
+	{
+		font-family:"MS Serif", "New York", serif;
+		font-size:18px;
+	}
+	#sidenav {width:200px;}
+	#sidenav a {font-family:"Comic Sans MS", cursive,Arial,sans-serif;text-decoration:none;display:block;padding:2px 1px 1px 16px}
+	#sidenav a:hover,#sidenav a:focus {color:#000000;background-color:#cccccc;}
+	#sidenav a.active {background-color:rgb(3,3,3);color:#ffffff}
+	#right {text-align:center;padding:16px 16px 0 0}
+	#right a {text-decoration:none}
+	#right a:hover {text-decoration:underline}
+	#right {width:21%}
+
+	#main {width:79%}
+	#main {padding:16px}
+@media (max-width:1700px) {#topnav .w3-bar:nth-of-type(1) a:nth-of-type(17){display:none;}}
+@media (max-width:1600px) {#topnav .w3-bar:nth-of-type(1) a:nth-of-type(13){display:none;}}
+@media (max-width:1510px) {#topnav .w3-bar:nth-of-type(1) a:nth-of-type(12){display:none;}}
+@media (max-width:1450px) {#topnav .w3-bar:nth-of-type(1) a:nth-of-type(11){display:none;}}
+@media (max-width:1330px) {#topnav .w3-bar:nth-of-type(1) a:nth-of-type(10){display:none;}}
+@media (max-width:1200px) {#topnav .w3-bar:nth-of-type(1) a:nth-of-type(9){display:none;}}
+@media (max-width:1100px) {#topnav .w3-bar:nth-of-type(1) a:nth-of-type(8){display:none;}}
+@media (max-width:1000px) {#topnav .w3-bar:nth-of-type(1) a:nth-of-type(7){display:none;}}
+@media (max-width:992px) {#topnav .w3-bar:nth-of-type(1) a:nth-of-type(6){display:none;}}
+@media (max-width:930px) {#topnav .w3-bar:nth-of-type(1) a:nth-of-type(18){display:none;}}
+@media (max-width:800px) {#topnav .w3-bar:nth-of-type(1) a:nth-of-type(19){display:none;}}
+@media (max-width:650px) {#topnav .w3-bar:nth-of-type(1) a:nth-of-type(5){display:none;} #topnav .w3-bar:nth-of-type(1) a:nth-of-type(16){display:none;}}
+@media (max-width:460px) {#topnav .w3-bar:nth-of-type(1) a:nth-of-type(4){display:none;}}
+@media (max-width:400px) {#topnav .w3-bar:nth-of-type(1) a:nth-of-type(3){display:none;}}
+ /*Track */
+#leftmenuinnerinner::-webkit-scrollbar-track {
+    background:#FFFFFF; 
+}
+#leftmenuinnerinner::-webkit-scrollbar {
+    width: 15px;
+}
+ 
+/* Handle */
+#leftmenuinnerinner::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+/* Handle on hover */
+#leftmenuinnerinner::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}

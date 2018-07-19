@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tomcatProjectProperties>
+    <rootDir></rootDir>
+    <workDir>/work</workDir>
+    <exportSource>false</exportSource>
+    <reloadable>true</reloadable>
+    <redirectLogger>false</redirectLogger>
+    <updateXml>true</updateXml>
+    <warLocation></warLocation>
+    <extraInfo></extraInfo>
+    <mavenClasspath>false</mavenClasspath>
+    <webPath></webPath>
+    <webClassPathEntries>
+        <webClassPathEntry>/Web/build/classes</webClassPathEntry>
+        <webClassPathEntry>C:/Program Files/Java/jdk1.8.0_171/jre/lib/charsets.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Program Files/Java/jdk1.8.0_171/jre/lib/ext/access-bridge-64.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Program Files/Java/jdk1.8.0_171/jre/lib/ext/cldrdata.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Program Files/Java/jdk1.8.0_171/jre/lib/ext/dnsns.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Program Files/Java/jdk1.8.0_171/jre/lib/ext/jaccess.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Program Files/Java/jdk1.8.0_171/jre/lib/ext/jfxrt.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Program Files/Java/jdk1.8.0_171/jre/lib/ext/localedata.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Program Files/Java/jdk1.8.0_171/jre/lib/ext/nashorn.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Program Files/Java/jdk1.8.0_171/jre/lib/ext/sunec.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Program Files/Java/jdk1.8.0_171/jre/lib/ext/sunjce_provider.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Program Files/Java/jdk1.8.0_171/jre/lib/ext/sunmscapi.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Program Files/Java/jdk1.8.0_171/jre/lib/ext/sunpkcs11.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Program Files/Java/jdk1.8.0_171/jre/lib/ext/zipfs.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Program Files/Java/jdk1.8.0_171/jre/lib/gson-2.8.4.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Program Files/Java/jdk1.8.0_171/jre/lib/jce.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Program Files/Java/jdk1.8.0_171/jre/lib/jfr.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Program Files/Java/jdk1.8.0_171/jre/lib/jsse.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Program Files/Java/jdk1.8.0_171/jre/lib/mssql-jdbc-6.4.0.jre8.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Program Files/Java/jdk1.8.0_171/jre/lib/resources.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Program Files/Java/jdk1.8.0_171/jre/lib/rt.jar</webClassPathEntry>
+        <webClassPathEntry>C:/apache-tomcat-9.0.5/lib/annotations-api.jar</webClassPathEntry>
+        <webClassPathEntry>C:/apache-tomcat-9.0.5/lib/catalina-ant.jar</webClassPathEntry>
+        <webClassPathEntry>C:/apache-tomcat-9.0.5/lib/catalina-ha.jar</webClassPathEntry>
+        <webClassPathEntry>C:/apache-tomcat-9.0.5/lib/catalina-storeconfig.jar</webClassPathEntry>
+        <webClassPathEntry>C:/apache-tomcat-9.0.5/lib/catalina-tribes.jar</webClassPathEntry>
+        <webClassPathEntry>C:/apache-tomcat-9.0.5/lib/catalina.jar</webClassPathEntry>
+        <webClassPathEntry>C:/apache-tomcat-9.0.5/lib/ecj-4.6.3.jar</webClassPathEntry>
+        <webClassPathEntry>C:/apache-tomcat-9.0.5/lib/el-api.jar</webClassPathEntry>
+        <webClassPathEntry>C:/apache-tomcat-9.0.5/lib/jasper-el.jar</webClassPathEntry>
+        <webClassPathEntry>C:/apache-tomcat-9.0.5/lib/jasper.jar</webClassPathEntry>
+        <webClassPathEntry>C:/apache-tomcat-9.0.5/lib/jaspic-api.jar</webClassPathEntry>
+        <webClassPathEntry>C:/apache-tomcat-9.0.5/lib/jsp-api.jar</webClassPathEntry>
+        <webClassPathEntry>C:/apache-tomcat-9.0.5/lib/servlet-api.jar</webClassPathEntry>
+        <webClassPathEntry>C:/apache-tomcat-9.0.5/lib/tomcat-api.jar</webClassPathEntry>
+        <webClassPathEntry>C:/apache-tomcat-9.0.5/lib/tomcat-coyote.jar</webClassPathEntry>
+        <webClassPathEntry>C:/apache-tomcat-9.0.5/lib/tomcat-dbcp.jar</webClassPathEntry>
+        <webClassPathEntry>C:/apache-tomcat-9.0.5/lib/tomcat-i18n-es.jar</webClassPathEntry>
+        <webClassPathEntry>C:/apache-tomcat-9.0.5/lib/tomcat-i18n-fr.jar</webClassPathEntry>
+        <webClassPathEntry>C:/apache-tomcat-9.0.5/lib/tomcat-i18n-ja.jar</webClassPathEntry>
+        <webClassPathEntry>C:/apache-tomcat-9.0.5/lib/tomcat-jdbc.jar</webClassPathEntry>
+        <webClassPathEntry>C:/apache-tomcat-9.0.5/lib/tomcat-jni.jar</webClassPathEntry>
+        <webClassPathEntry>C:/apache-tomcat-9.0.5/lib/tomcat-util-scan.jar</webClassPathEntry>
+        <webClassPathEntry>C:/apache-tomcat-9.0.5/lib/tomcat-util.jar</webClassPathEntry>
+        <webClassPathEntry>C:/apache-tomcat-9.0.5/lib/tomcat-websocket.jar</webClassPathEntry>
+        <webClassPathEntry>C:/apache-tomcat-9.0.5/lib/websocket-api.jar</webClassPathEntry>
+        <webClassPathEntry>org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v9.0 (2)</webClassPathEntry>
+    </webClassPathEntries>
+</tomcatProjectProperties>

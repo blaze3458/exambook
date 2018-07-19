@@ -1,0 +1,324 @@
+@charset "UTF-8";
+
+.topnav{
+	position:relative;
+	width:100%;
+	height:auto;
+}
+
+.top_inner{
+	position: relative;
+    width: 100%;
+    padding: 15px 15px 20px 25px;
+}
+
+.top_anchor{
+	display: contents;
+    font-family: Poppins-Bold;
+    font-size: 30px;
+    color: #333333;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.top-button-right{
+	position: relative;
+    left: 65%;
+    display: inline-table;
+}
+
+.profile{
+	position: sticky;
+    left: 90%;
+    font-size: 20px;
+}
+
+.profile-content{
+	position: relative;
+    height: 100%;
+    top:10px;
+    margin-left: 220px;
+}
+
+.profile-content-inner{
+	position:relative;
+	width:100%;
+	padding: 10px 10px 10px 10px;
+}
+
+.parg{
+	top: 0px;
+    display: contents;
+}
+
+.inner-content{
+	position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.quest-content{
+    width: 890px;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 30px 55px 30px 55px;
+    box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.quest{
+	position: relative;
+    word-break: break-all;
+}
+
+.quest-btn-content{
+	position: relative;
+}
+
+.quest-btn-bottom{
+	position: relative;
+    left: 235px;
+    display: inline-table;
+}
+/* Radio button container */
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+    background: -webkit-linear-gradient(right, #21d4fd, #b721ff, #21d4fd, #b721ff);
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}
+
+.sidenav{
+	position: fixed!important;
+    top: 105px;
+    width: 220px;
+    height: 100%;
+    z-index: 1;
+    /* padding: 5px; */
+    /* padding-bottom: 10px; */
+    overflow: auto;
+}
+
+.left-menu{
+	position: relative;
+    left: 5px;
+    width: 200px;
+    padding: 15px 15px 20px 25px;
+}
+
+.left-menu-button,.exams{
+	background: none!important;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    text-align: -webkit-auto;
+}
+
+.left-menu-button:hover,.exams:hover{
+	color:#007bff;
+}
+
+.results{padding-left: 30px;}
+
+.result-list{
+	border: outset;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.alert-wrong-password{
+	margin-bottom: 15px;
+    border: 1px solid #c80000;
+    border-radius: 2px;
+    padding: 4px 25px 4px 10px;
+    transform: translateY(-50%);
+    right: 0px;
+    pointer-events: none;
+    font-family: Poppins-Regular;
+    color: #c80000;
+    font-size: 13px;
+    line-height: 1.4;
+    text-align: left;
+}
+
+@media (max-width: 992px)
+.alert-validate-id::before {
+    visibility: visible;
+    opacity: 1;
+}
+
+.alert-validate-id:hover:before {
+  visibility: visible;
+  opacity: 1;
+}
+
+.alert-validate-id::before {
+    content: attr(data-validate);
+    position: absolute;
+    max-width: 70%;
+    background-color: #fff;
+    border: 1px solid #c80000;
+    border-radius: 2px;
+    padding: 4px 25px 4px 10px;
+    top: 9%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 70px;
+    pointer-events: none;
+    font-family: Poppins-Regular;
+    color: #c80000;
+    font-size: 13px;
+    line-height: 1.4;
+    text-align: left;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: opacity 0.4s;
+    -o-transition: opacity 0.4s;
+    -moz-transition: opacity 0.4s;
+    transition: opacity 0.4s;
+}
+
+.alert-validate-id::after{
+    content: "\f06a";
+    font-family: FontAwesome;
+    font-size: 16px;
+    color: #c80000;
+    display: block;
+    position: absolute;
+    background-color: #fff;
+    top: 9%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 30px;
+}
+
+.add-stu{
+	position: relative;
+    left: 30%;
+    width: 280px;
+    display: inline-block;
+}
+
+.add-stu-content{
+	    padding: 5px;
+	
+}
+
+.old-quest{text-align:center;}
+
+
+
+.question-textarea{
+	border:outset;
+	border-radius:20px;
+	 font-family: Poppins-Regular;
+    font-size: 15px;
+    color: #555555;
+    line-height: 1.2;
+    display: block;
+    width: 100%;
+    height: 100px;
+    background: transparent;
+    padding: 0 5px;
+	
+}
+
+.question-textarea:focus{
+	box-shadow: 0 0 3pt 2pt gray;
+}
+
+.answer-textarea{height: 50px;}
+
+#courses{
+	    border: outset;
+    font-family: Poppins-Regular;
+    font-size: 13px;
+}
+
+.teacher-input{
+	    border: outset;
+    border-radius: 20px;
+    font-family: Poppins-Regular;
+    font-size: 20px;
+    color: gray; 
+}
+
+.teacher-input:focus{
+	box-shadow: 0 0 3pt 2pt gray;
+}
+
+.teacher-input:before{
+	position:absolute;
+}
+
+.teacher-input:after{
+	position:absolute;
+}

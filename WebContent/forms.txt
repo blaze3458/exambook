@@ -1,0 +1,91 @@
+
+/*ADD COURSE */
+<form id=add_class action = add_course method = "post">	
+	<p> ADD NEW COURSE</p>
+	<div style = "margin: auto;text-align: center;">	
+		<input class = teacher-input name = "course" type="text" placeholder="Enter course name" required>
+	</div>
+	<div class="container-login100-form-btn">
+		<div style="width:100px;" class="wrap-login100-form-btn">
+			<div class="login100-form-bgbtn"></div>
+			<button class="login100-form-btn">Add course</button>
+		</div>
+	</div>
+</form>
+
+/*ADD STUDENT*/
+<form id="add_student" action = "add_student" method = "post">
+	<p>YOUR STUDENTS</p>
+	<div id = "teacher-students"></div>
+	<p> ADD NEW STUDENT</p>			
+	<div class = "add-stu">		
+		<div class="add-stu-content" data-validate="Valid Student ID: A0000.0000">
+			<input class = teacher-input name = "ID" type="text" placeholder="StudentID">
+		</div>
+				 
+		<div class="add-stu-content">		
+			<input class = teacher-input name = "pass" type="password" placeholder="password" required>
+		</div>
+				
+		<div class="add-stu-content">		
+			<input class = teacher-input name = "name" type="text" placeholder="Name" required>
+		</div>
+				
+		<div class="add-stu-content">		
+			<input class = teacher-input name = "surname" type="text" placeholder="Surname" required>
+		</div>
+	
+		<div class="container-login100-form-btn">
+			<div style="width:100px;" class="wrap-login100-form-btn">
+				<div class="login100-form-bgbtn"></div>
+				<button class="login100-form-btn">Add Student</button>
+			</div>
+		</div>
+	</div>
+</form>
+
+
+/*ADD QUEST*/
+<form id = "add_question" action = "add_question" method = "post">
+		
+		<div id = "add_old_questions"></div>
+		<p>ADD NEW QUESTION</p>
+			<textarea placeholder="Question" maxlength="500" onkeyup="countChar(this)" class="question-textarea" type = "text" name="quest" required></textarea>
+		<p id="charNum"></p>
+		
+		<textarea placeholder="Answer A" maxlength="200" class=" question-textarea answer-textarea" type = "text" name="Ans_A" required></textarea>
+		<textarea placeholder="Answer B" maxlength="200" class=" question-textarea answer-textarea" type = "text" name="Ans_B" required></textarea>
+		<textarea placeholder="Answer C" maxlength="200" class=" question-textarea answer-textarea" type = "text" name="Ans_C" required></textarea>
+		<textarea placeholder="Answer D" maxlength="200" class=" question-textarea answer-textarea" type = "text" name="Ans_D" required></textarea>
+		<div style="display: inline-flex;">
+			<p>Select Course:</p>
+			<select id="courses" name = "course"></select>
+			<p>Select True Answer:</p>
+			<select id="courses" name = "true_ans">
+				<option value="A">A</option>
+				<option value="B">B</option>
+				<option value="C">C</option>
+				<option value="D">D</option>
+			</select>
+		</div>
+		<div class="container-login100-form-btn">
+			<div style="width:100px;" class="wrap-login100-form-btn">
+				<div class="login100-form-bgbtn"></div>
+				<button class="login100-form-btn">Add Question</button>
+			</div>
+		</div>
+</form>
+
+/*ASSIGN COURSE*/
+<form id = "assign_course_form" action = "assign_course" method = "post">
+	<p>ASSIGN COURSE TO YOUR STUDENTS</p>
+		<p>Select Course:</p>
+		<select id="course_select" name = "course"></select>
+		<div class = student-checkbox></div>
+		<div class="container-login100-form-btn">
+			<div style="width:100px;" class="wrap-login100-form-btn">
+				<div class="login100-form-bgbtn"></div>
+				<button class="login100-form-btn">Assign Course</button>
+			</div>
+		</div>
+</form>
