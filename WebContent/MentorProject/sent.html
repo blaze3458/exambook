@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--===========================================================================-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!--===========================================================================-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===========================================================================-->
+<link rel="icon" type="image/png" href="em-icon.png"/>
+<!--===========================================================================-->
+<link rel="stylesheet" type="text/css" href= StyleSheet.css />
+<!--===========================================================================-->
+<link rel="stylesheet" type="text/css" href= fonts.css />
+<!--===========================================================================-->
+<title>Ecosystem Mail - Sent</title>
+</head>
+<body>
+<div class="topnav" role="banner">
+	<div class="topnav-inner">
+    	<div class="back-container eco-logo">
+    		<img class="small" style="margin-right: 5px; border-radius: 3px;" src="em-icon.png" />
+      	  <h3>Ecosystem Mail</h3>
+   	 	</div>
+    	<div class = "search-container">
+   	 		<form id="search_form" style="max-width: 720px; position: relative;">
+    			<input type="text" placeholder="Search" class="search-input"/>
+    		</form>
+    	</div>
+    	<div class = "account-point-container">
+    		<p id="member_point">100</p>
+    		<img class="small" src="post.png" />
+    	</div>
+        <div class="account-container">
+        	<div class="account-inner">
+            	<p id="account_name">Name</p>
+                <div class="logout-setting-container">
+            		<button id="logout" class="menu-button">Logout</button>
+                	<a href="" id="settings" class="menu-button">Settings</a>
+                </div>
+            </div>
+            <div>
+            	<img class="small" src="Eco-icon.png" id="" />
+            </div>
+        </div>
+    </div>
+</div>
+<div style="background-color:transparent;" class="middle">
+	<div class="left-menu-container">
+    	<div class="left-menu-inner">
+    		<div class="create-button-container"><button id="create" class="create-button">+ CREATE</button></div>
+   			<div class="menu-button-container">
+       			<div class="menu-button-inner">
+                	<a href="inbox.html" id="inbox-button" class="menu-button icon-download-thin"> Inbox</a></div>
+        		<div class="menu-button-inner">
+                	<a href="ecosystem.html" id="ecosystem-button" class="menu-button icon-database-thin"> Ecosystem</a></div>
+        		<div class="menu-button-inner">
+            		<a href="sent.html" id="sent-button" class="menu-button icon-upload-thin"> Sent</a></div>
+        		<div class="menu-button-inner">
+            		<a href="draft.html" id="draft-button" class="menu-button icon-cloud-upload-thin"> Draft</a></div>
+       	   		<div class="menu-button-inner">
+                	<a href="archieve.html" id="archived-button" class="menu-button icon-archive-box-thin"> Archived</a></div>
+       			<div class="menu-button-inner">
+                	<a href="trash.html" id="trash-button" class="menu-button icon-trash-can-thin"> Trash</a></div>
+         	</div>
+       		<div class="about-container">
+       			<a href="">About</a>
+       			<a href="">Contact</a>
+       			<a href="">Terms</a>
+       			<p>2018 &copy; Mentornity</p>
+       		</div>
+         </div>
+	</div>
+   	<div class="popup-container">
+    	<div class="popup-inner">
+        	<div id="inbox" class="inbox-container">
+            	<div class="inbox-mail-container inbox-menu">
+                
+                	<div class="inbox-float-left"><!--Float left-->
+    				<!--Checkbox-->
+                		<div class="container-checkbox">
+                    		<div class="checkbox-inner flex-100-mid">
+                				<div role="checkbox" aria-labelledby="check_all" aria-checked="false" class="checkbox"></div>
+                       	 	</div>
+                 		</div>
+                	<!--Checkbox end-->
+                  	  	<div class="inbox-button-container">
+                        	<div class="flex-100-mid"><button id="spam" class="menu-button">Spam</button></div>
+                        	<div class="flex-100-mid"><button id="trash_menu" class="menu-button">Trash</button></div>
+                    		<div class="flex-100-mid"><button id="archive_menu" class="menu-button">Archive</button></div>
+                    	</div>
+                 	<!--Menu buttons end Selected text-->
+                   </div>
+                   <div class="inbox-float-right"><!--Float right-->
+                    	<p id="selected_mail">2 Selected</p>
+                  	<!--Selected text end Mail counter-->
+                    	<div class="inbox-mail-counter-container flex-100-mid">
+                    		<p id="display_mail">1-50</p>/<p id="total_mail">200</p>
+                    	</div>
+                   	<!--Mail counter end Next prev Button-->
+                    	<div class="next-prev-button-container flex-100-mid">
+                    		<div><button id="prev-mail" class="menu-button icon-angel-left-thin"></button></div>
+                        	<div><button id="next-mail" class="menu-button icon-angel-right-thin"></button></div>
+                   		 </div>
+                 	 <!--Next prev button end-->
+                     </div>
+                </div>
+                <!---Inbox Mail-->
+                <div class="inbox-mail-container inbox-mail">
+                	<div class="container-checkbox">
+                    	<div class="checkbox-inner flex-100-mid"><!--checkbox-->
+                			<div role="checkbox" aria-labelledby="ch1" aria-checked="false" class="checkbox"></div>
+                        </div>
+                 	</div>
+                    <div class="container-mail-img flex-100-mid"><img id="mail_img" class="small" src="em-icon.png"/></div><!--sender img-->
+                    <div role="mail-button" aria-labelledby="Jane Clawings" class="wd-695 flex-100-mid"> <!--Mail butonu olacak-->
+                    <!--aria-labelledy unique mail index, Mail butonuna basınca indexden maili çek-->
+                    	<div class="wd-625">
+                        	<h4 id="mail_sender">Receiver : Jane Clawings</h4>
+                            <p id="mail_content">And is blessed. Waters gathered it ening signs lights open fly on sky that in the air.
+                            And is blessed. Waters gathered it ening signs lights open fly on sky that in the air.
+                            And is blessed. Waters gathered it ening signs lights open fly on sky that in the air.
+                            And is blessed. Waters gathered it ening signs lights open fly on sky that in the air.
+                            And is blessed. Waters gathered it ening signs lights open fly on sky that in the air.</p>
+                        </div><!--iç 1.Gönderen-başlık -->
+                        <div class="mail-date-container"><p id="mail_date">26 Feb</p></div> <!--2.tarih-->
+                    </div>
+                </div>
+                <!--Inbox Mail END-->
+                
+                <!---Inbox Mail-->
+                <div class="inbox-mail-container inbox-mail">
+                	<div class="container-checkbox">
+                    	<div class="checkbox-inner flex-100-mid"><!--checkbox-->
+                			<div role="checkbox" aria-labelledby="ch1" aria-checked="false" class="checkbox"></div>
+                        </div>
+                 	</div>
+                    <div class="container-mail-img flex-100-mid"><img id="mail_img" class="small" src="em-icon.png"/></div><!--sender img-->
+                    <div role="mail-button" aria-labelledby="Jane Clawings" class="wd-695 flex-100-mid"> <!--Mail butonu olacak-->
+                    <!--aria-labelledy unique mail index, Mail butonuna basınca indexden maili çek-->
+                    	<div class="wd-625">
+                        	<h4 id="mail_sender">Jane Clawings</h4>
+                            <p id="mail_content">And is blessed. Waters gathered it ening signs lights open fly on sky that in the air.
+                            And is blessed. Waters gathered it ening signs lights open fly on sky that in the air.
+                            And is blessed. Waters gathered it ening signs lights open fly on sky that in the air.
+                            And is blessed. Waters gathered it ening signs lights open fly on sky that in the air.
+                            And is blessed. Waters gathered it ening signs lights open fly on sky that in the air.</p>
+                        </div><!--iç 1.Gönderen-başlık -->
+                        <div class="mail-date-container"><p id="mail_date">26 Feb</p></div> <!--2.tarih-->
+                    </div>
+                </div>
+                
+                <!---Inbox Mail-->
+                <div class="inbox-mail-container inbox-mail">
+                	<div class="container-checkbox">
+                    	<div class="checkbox-inner flex-100-mid"><!--checkbox-->
+                			<div role="checkbox" aria-labelledby="ch1" aria-checked="false" class="checkbox"></div>
+                        </div>
+                 	</div>
+                    <div class="container-mail-img flex-100-mid"><img id="mail_img" class="small" src="em-icon.png"/></div><!--sender img-->
+                    <div role="mail-button" aria-labelledby="Jane Clawings" class="wd-695 flex-100-mid"> <!--Mail butonu olacak-->
+                    <!--aria-labelledy unique mail index, Mail butonuna basınca indexden maili çek-->
+                    	<div class="wd-625">
+                        	<h4 id="mail_sender">Jane Clawings</h4>
+                            <p id="mail_content">And is blessed. Waters gathered it ening signs lights open fly on sky that in the air.
+                            And is blessed. Waters gathered it ening signs lights open fly on sky that in the air.
+                            And is blessed. Waters gathered it ening signs lights open fly on sky that in the air.
+                            And is blessed. Waters gathered it ening signs lights open fly on sky that in the air.
+                            And is blessed. Waters gathered it ening signs lights open fly on sky that in the air.</p>
+                        </div><!--iç 1.Gönderen-başlık -->
+                        <div class="mail-date-container"><p id="mail_date">26 Feb</p></div> <!--2.tarih-->
+                    </div>
+                </div>
+                
+                <!---Inbox Mail-->
+                <div class="inbox-mail-container inbox-mail">
+                	<div class="container-checkbox">
+                    	<div class="checkbox-inner flex-100-mid"><!--checkbox-->
+                			<div role="checkbox" aria-labelledby="ch1" aria-checked="false" class="checkbox"></div>
+                        </div>
+                 	</div>
+                    <div class="container-mail-img flex-100-mid"><img id="mail_img" class="small" src="em-icon.png"/></div><!--sender img-->
+                    <div role="mail-button" aria-labelledby="Jane Clawings" class="wd-695 flex-100-mid"> <!--Mail butonu olacak-->
+                    <!--aria-labelledy unique mail index, Mail butonuna basınca indexden maili çek-->
+                    	<div class="wd-625">
+                        	<h4 id="mail_sender">Jane Clawings</h4>
+                            <p id="mail_content">And is blessed. Waters gathered it ening signs lights open fly on sky that in the air.
+                            And is blessed. Waters gathered it ening signs lights open fly on sky that in the air.
+                            And is blessed. Waters gathered it ening signs lights open fly on sky that in the air.
+                            And is blessed. Waters gathered it ening signs lights open fly on sky that in the air.
+                            And is blessed. Waters gathered it ening signs lights open fly on sky that in the air.</p>
+                        </div><!--iç 1.Gönderen-başlık -->
+                        <div class="mail-date-container"><p id="mail_date">26 Feb</p></div> <!--2.tarih-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--===========================================================================-->
+<script src="ecosystem.js"></script>
+<!--===========================================================================-->
+
+</body>
+</html>
