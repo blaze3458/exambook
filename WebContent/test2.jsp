@@ -8,15 +8,9 @@
 </head>
 
 <body>
-<%@page import="java.sql.ResultSet" %>
-	<%
-		ResultSet rs = (ResultSet)session.getAttribute("cat");//session.getAttribute
-		while(rs.next())
-		{
-	%>
-	<p><%=rs.getString(1) %></p>
-	<p><%=rs.getString(2) %></p>
-	<%} %>
+<% String mess = "hello"; %>
+
+<p><%=mess%></p>
 	
 </body>
 </html>
